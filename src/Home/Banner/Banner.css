@@ -1,0 +1,39 @@
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin: 0px 100px;
+}
+.banner-text {
+  margin: 160px 0 0 0;
+}
+
+.banner-text p:first-child {
+  font-weight: 600;
+  font-size: 20px;
+}
+.text-description {
+  margin: 50px 0;
+  font-size: 16px;
+}
+
+.banner-text h2 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 100px;
+}
+.banner-text h2 span {
+  font-size: 80px;
+  font-weight: 700;
+}
+.banner-img {
+  width: 540px;
+}
+.banner-text button {
+  padding: 16px 32px;
+  font-size: 16px;
+  border-radius: 30px;
+  background: #f27a44;
+  border: 0;
+  color: white;
+}
