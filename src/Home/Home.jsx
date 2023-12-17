@@ -1,5 +1,6 @@
 import Banner from './Banner/Banner';
 import Destination from './Destination/Destination';
+import Discount from './Discount/Discount';
 import Feedback from './Feedback/Feedback';
 import Navbar from './Navbar/Navbar';
 import './home.css';
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <Feedback></Feedback>
             <Destination></Destination>
+            <Discount></Discount>
         </div>
         );
 };
