@@ -1,0 +1,35 @@
+.feedback-section {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin: 0px 220px 0 240px;
+}
+
+.single-f {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 50px 0 0 0;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.single {
+  display: flex;
+  flex-direction: column;
+}
+.f-description {
+  margin-top: 70px;
+}
+.f-description ul {
+  margin: 20px 0 60px 40px;
+}
+.f-description button {
+  padding: 16px 32px;
+  font-size: 16px;
+  border-radius: 30px;
+  background: #f27a44;
+  border: 0;
+  color: white;
+}
