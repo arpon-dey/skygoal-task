@@ -29,3 +29,25 @@
 .image {
   width: 480px;
 }
+
+@media screen and (max-width: 576px) {
+  .discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 20px 0 40px;
+  }
+  .image {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 20px 0 40px;
+  }
+}

@@ -14,3 +14,27 @@
   justify-content: center;
   gap: 45px;
 }
+
+@media screen and (max-width: 576px) {
+  .footer {
+    margin: 20px 20px;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer {
+    margin: 40px 40px;
+  }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
+    justify-content: center;
+  }
+}

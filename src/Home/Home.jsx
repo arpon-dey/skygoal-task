@@ -1,4 +1,5 @@
 import Banner from './Banner/Banner';
+import Booknow from './Booknow/Booknow';
 import Destination from './Destination/Destination';
 import Discount from './Discount/Discount';
 import Feedback from './Feedback/Feedback';
@@ -15,6 +16,7 @@ const Home = () => {
             <Feedback></Feedback>
             <Destination></Destination>
             <Discount></Discount>
+            <Booknow></Booknow>
             <Testimonial></Testimonial>
             <Footer></Footer>
         </div>

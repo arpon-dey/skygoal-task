@@ -29,3 +29,14 @@
 .single-testimonial p {
   margin: 20px 0 0;
 }
+
+@media screen and (max-width: 576px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .tes-section {
+    margin: 0px 20px 40px;
+  }
+}

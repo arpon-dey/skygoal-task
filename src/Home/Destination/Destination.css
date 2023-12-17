@@ -1,7 +1,22 @@
 .destination {
   margin: 120px;
 }
+.destination h2 {
+  margin-top: "240px";
+  margin-bottom: 40px;
+  font-size: "40px";
+}
 
 .img {
-  width: 360px;
+  width: 250px;
+}
+
+@media screen and (max-width: 576px) {
+  .destination {
+    margin: 20px;
+  }
+  .destination h2 {
+    margin: "40px 0 50px 0";
+    font-size: "40px";
+  }
 }
