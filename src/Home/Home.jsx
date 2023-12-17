@@ -3,6 +3,7 @@ import Destination from './Destination/Destination';
 import Discount from './Discount/Discount';
 import Feedback from './Feedback/Feedback';
 import Navbar from './Navbar/Navbar';
+import Testimonial from './Testimonial/Testimonial';
 import './home.css';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Feedback></Feedback>
             <Destination></Destination>
             <Discount></Discount>
+            <Testimonial></Testimonial>
         </div>
         );
 };
